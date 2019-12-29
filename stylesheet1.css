@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+section {
+  position: relative;
+  margin: 10px 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #dddddd;
+}
+
+nav {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 30px;
+  background-color: #ff0000;
+}
+
+aside {
+  position: sticky;
+  top: 0;
+  width: 200px;
+  height: 200px;
+  background-color: #00ff00;
+}
